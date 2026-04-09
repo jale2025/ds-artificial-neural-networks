@@ -1,0 +1,13 @@
+tensorflow
+tensorflow-hub
+tensorflow-docs
+jupyterlab==4.2.5
+pandas
+seaborn
+statsmodels
+scikit-learn
+pydot
+protobuf
+tensorflow
+tensorflow-hub
+tensorflow-docs

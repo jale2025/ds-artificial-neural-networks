@@ -1,0 +1,34 @@
+# Tested and supported only with: Python 3.11.3 on Windows 11
+# Use this file only inside a fresh virtual environment for this repo.
+# Do not merge multiple course repos into one shared environment.
+# Do not copy package lines from requirements.txt or requirements_silicon.txt into this file.
+# Other Python versions (3.10, 3.12, Conda) are outside the support scope.
+
+# Windows 11 / Python 3.11
+# Graphviz for keras.utils.plot_model is not a pure Python dependency:
+# the official Graphviz installer must also be present and
+# dot.exe must be available on PATH. This file alone does not provide that.
+
+jupyterlab==4.2.5
+matplotlib==3.7.1
+contourpy==1.0.7
+pandas==2.0.1
+numpy==1.23.5
+scipy==1.10.1
+seaborn==0.12.2
+statsmodels==0.13.5
+scikit-learn==1.2.2
+Pillow==10.4.0
+pydot==1.4.2
+protobuf==4.25.8
+termcolor==3.3.0
+
+tensorflow-intel==2.15.0
+keras==2.15.0
+tensorflow-hub==0.15.0
+tensorflow-docs==2024.2.5.73858
+
+h5py==3.10.0
+tables==3.8.0
+blosc2==2.0.0
+numexpr==2.8.7
